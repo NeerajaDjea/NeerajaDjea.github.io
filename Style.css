@@ -15,7 +15,7 @@ body{
 .header {
     display: flex;
      justify-content: space-around; 
-    /* align-items: center; */
+     align-items: center; 
     background-color: aliceblue;
     margin-bottom: 20px;
 }
@@ -30,7 +30,7 @@ h1
 
 .titleBox
 {
-    width: 70%;
+    align-content: center;
 }
 p{line-height: 2}
 .title 
@@ -149,17 +149,18 @@ img{
 
 }
 img{
-    position: relative;
+   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width:150px;
     height:150px;  
 }
-h4{
+.pic h4{
     position: absolute;
     z-index : 1;
     bottom:4px;
+    left:20px;
    font-size: 12px;
    padding:2px;
    text-align: center;
