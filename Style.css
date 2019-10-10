@@ -5,7 +5,8 @@ body{
    
 }
 
-.container{
+.container{ 
+    margin-top: 100px;
     background-color: aliceblue;
     max-width: 960px;
     width: 96%;
@@ -13,8 +14,8 @@ body{
 }
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-around; 
+    /* align-items: center; */
     background-color: aliceblue;
     margin-bottom: 20px;
 }
@@ -31,7 +32,7 @@ h1
 {
     width: 70%;
 }
-
+p{line-height: 2}
 .title 
 {
     text-align: center;
@@ -79,6 +80,7 @@ img{
        height: 300px;
     }
     .outline{
+        margin-top: 50px;
         display: flex;
         background-color:aliceblue;
         justify-content: space-around;
@@ -112,14 +114,14 @@ img{
 
      }
       .form{
-         margin:40px;
+          align-content: center;
+          margin-top: 50px;
+           margin-left:340px;
           background-color: aliceblue;
           width: 700px;
           height: 300px;
           padding: 50px;
-       
-        
-         }
+       }
 
  .submit{
      width: 60px;
@@ -127,34 +129,43 @@ img{
      border-radius: 5px;
     background-color: rgb(88, 156, 156);
 
-
 }
 .content1{
-
-    padding: 10px;
-     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 300px;
+    bottom: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
     background-color: lightgrey;
-    height: 600px;
-    width: 700px;
+    height: 400px;
+    width: 800px;
+
+}
+.pic{
+    position: relative;
+
 }
 img{
     position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width:200px;
-    height:200px;
-    
+    width:150px;
+    height:150px;  
 }
 h4{
- 
-  text-align: center;
+    position: absolute;
+    z-index : 1;
+    bottom:4px;
+   font-size: 12px;
+   padding:2px;
+   text-align: center;
    border-radius: 1px;
-    width:180px;
-    height: 30px;
+    width:150px;
+    height: 25px;
     background-color: rgb(88, 156, 156);
     color: white;
-  
 }
