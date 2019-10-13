@@ -82,7 +82,8 @@ img{
 } 
 
     .content
-    {
+    { 
+        margin-bottom: 50px;
         padding: 20px;
         display: flex;
        background-color: lightgrey;
@@ -142,6 +143,8 @@ img{
 }
 .content1
 {
+    margin-top: 90px;
+    margin-left:100px;
     align-self: center;
     width: 50%;
      position: relative;
