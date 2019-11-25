@@ -5,63 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
+    <title></title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="titleBox">
-            <h2 class="title">Neeraja</h2>
+    <header class="top-container">
+
+        <div class="header">
+            <h2 class="name-title">Neeraja</h2>
+
+
+            <nav class="nav-box">
+                <ul class="navigation">
+                    <li class="navigation-item">
+                        <a href="index.html" class="navigation-link" title="">About</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="Portfolio.html" class="navigation-link" title="">Portfolio </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="Contact.html" class="navigation-link" title="">Contact</a>
+                    </li>
+            </nav>
+
         </div>
-        <nav class="navBox">
-            <ul class="navigation">
-                <li class="navigation-item">
-                    <a href="index.html" class="navigation-link" title="">About</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="Portfolio.html" class="navigation-link" title="">Portfolio </a>
-                </li>
-                <li class="navigation-item">
-                    <a href="Contact.html" class="navigation-link" title="">Contact</a>
-                </li>
-        </nav>
     </header>
-    <h3>Projects</h3>
-    <hr>
-    <div class="content1">
-        <div class="pic">
-            
-        </div>
-        <div class="pic">
-            <img src="https://picsum.photos/id/1018/367/267" alt="img">
-            <h4>Nasa</h4>
-        </div>
-        <div class="pic">
-            <img width src="https://picsum.photos/id/119/367/267" alt="image">
-            <h4>Social Media</h4>
+
+    <div class="main-container">
+
+        <h1 class="sub-heading">Portfolio</h1>
+
+        <hr class="hr1">
+
+        <div class="row">
+
+            <section class="feature column column--mobile">
+                <img src="password.png" width=70% alt="Placeholder">
+                <div id="label">
+                    <strong>Password generator</strong>
+                </div>
+            </section>
+
+            <section class="feature column column--mobile">
+                <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+                <div id="label">
+                    <strong><label for=""></label></strong>
+                </div>
+            </section>
+
+            <section class="feature column column--mobile">
+                <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+                <div id="label">
+                    <strong>label</strong>
+                </div>
+            </section>
+
+            <section class="feature column column--mobile">
+                <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+                <div id="label">
+                    <strong>label</strong>
+                </div>
 
         </div>
-        <div class="pic">
-            <img src="https://picsum.photos/id/160/367/267" alt="img">
-            <h4>Websites</h4>
-        </div>
-        <div class="pic">
-            <img src="https://picsum.photos/id/48/367/267" alt="img">
-            <h4>Mobile-Apps</h4>
-        </div>
 
-    </div>
+        <footer class="footer">
+            Copyright @
+        </footer>
 
-
-
-
-    </div>
-    </div>
-
-    <div class="footer">
-        <p>@copyright</p>
-    </div>
 </body>
 
 </html>
