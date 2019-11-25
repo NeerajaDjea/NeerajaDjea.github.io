@@ -209,5 +209,19 @@ img {
 @media(max-width: 480px) {
     .img-float {
         float: none;
+        width: 60%
+    }
+    .top-container {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .navigation {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        color: #cccccc;
+        padding: 1px 1px;
+        list-style-type: none;
+        font-size: small;
     }
 }
