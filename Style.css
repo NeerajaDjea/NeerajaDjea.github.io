@@ -19,7 +19,8 @@
     }
     
     .header {
-        width: 960px;
+        background-color: aliceblue;
+        width: 100%;
         margin: auto;
         text-align: center;
         display: flex;
@@ -29,9 +30,10 @@
     
     .name-title {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background: #4aaaa5;
+        background: #439793;
         color: white;
         margin: 5px;
+        margin-left: 40px;
         padding: 10px 30px;
         text-align: center;
         border-radius: 5px;
@@ -112,6 +114,7 @@
     }
     
     #label {
+        font-family: Arial, Helvetica, sans-serif;
         position: absolute;
         z-index: 1;
         color: white;
@@ -119,7 +122,7 @@
         width: 200px;
         padding: 5px;
         text-align: center;
-        background: #4aaaa5;
+        background: rgb(171, 209, 243);
         border-radius: 5px;
     }
     
