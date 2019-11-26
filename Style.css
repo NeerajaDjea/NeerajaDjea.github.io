@@ -102,10 +102,11 @@ a.navigation-link {
 }
 
 img {
-    margin-top: 10px;
+    margin-top: 20px;
     align-self: baseline;
     float: left;
     padding: 0;
+    opacity: .75;
 }
 
 .row {
@@ -127,17 +128,17 @@ img {
     position: absolute;
     z-index: 1;
     color: white;
-    bottom: 10px;
+    bottom: 50%;
     width: 200px;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
-    background: rgb(171, 209, 243);
+    background: #439793;
     border-radius: 5px;
 }
 
 .footer {
     padding: 5px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #5cbdb8;
     text-align: center;
     bottom: 0;
     background-color: #777777;
