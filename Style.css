@@ -87,6 +87,7 @@ a.navigation-link {
     max-width: 960px;
     margin: auto;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgb(138, 137, 137);
 }
 
 .img-float {
