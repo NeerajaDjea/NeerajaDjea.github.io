@@ -31,9 +31,11 @@ body {
 
 .name-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #439793;
-    color: white;
+    /* background: #439793; */
+    background-color: rgb(105, 79, 105);
+    /* color: white; */
     /* margin: 5px; */
+    color: aliceblue;
     margin-left: 40px;
     padding: 10px 30px;
     text-align: center;
@@ -98,7 +100,8 @@ a.navigation-link {
 .sub-heading {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: rgb(105, 79, 105);
+    ;
 }
 
 img {
@@ -138,7 +141,7 @@ img {
 
 .footer {
     padding: 5px;
-    border-top: 8px solid #5cbdb8;
+    border-top: 8px solid rgb(105, 79, 105);
     text-align: center;
     bottom: 0;
     background-color: #777777;
@@ -178,11 +181,13 @@ img {
 }
 
 .button {
-    background: #4aaaa5;
+    background: rgb(105, 79, 105);
     padding: 10px 25px;
     border-style: none;
     border-radius: 3px;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgb(138, 137, 137);
+    color: aliceblue;
 }
 
 #feature {
