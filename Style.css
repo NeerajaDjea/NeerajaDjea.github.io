@@ -102,7 +102,7 @@ a.navigation-link:hover {
     padding: 10px 30px 10px 30px;
     max-width: 960px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 3px 3px 6px rgb(73, 72, 72);
     margin-top: 15px;
 }
@@ -145,15 +145,16 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     /* z-index: 1; */
-    color: white;
+    color: rgb(17, 17, 17);
     bottom: 40%;
     width: 50%;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     background: rgb(105, 79, 105);
     border-radius: 5px;
     text-decoration: none;
     opacity: 0.9;
+    text-decoration: none;
 }
 
 .footer {
@@ -213,12 +214,15 @@ img {
 
 #link {
     text-decoration: none;
-    color: rgb(240, 231, 216);
-    ;
+    color: aliceblue;
 }
 
 #link:hover {
-    color: white;
+    color: rgb(19, 18, 19);
+    -webkit-transform: scale(2.4);
+    transform: scale(2.0);
+    -webkit-transition: 1s;
+    transition: 0.5s;
 }
 
 .column {
@@ -268,5 +272,8 @@ img {
     }
     a.navigation-link {
         color: rgb(219, 199, 219);
+    }
+    .main-container {
+        margin-bottom: 30px;
     }
 }
